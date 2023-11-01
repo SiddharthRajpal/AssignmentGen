@@ -14,7 +14,7 @@ Below is the summary of our RNN model which we have made using python and keras.
 | Layer (type)                  | Output Shape             | Param      |
 |-------------------------------|--------------------------|------------|
 | embedding (Embedding)               | multiple     | 16896            |
-|  gru (GRU)  | multiple              | multiple     | 3938304          |
+|  gru (GRU)  |               | multiple     | 3938304          |
 |  dense (Dense)                      | multiple     | 67650            |
 
 
