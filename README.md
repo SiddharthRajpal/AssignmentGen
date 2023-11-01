@@ -11,11 +11,11 @@ Below is the summary of our RNN model which we have made using python and keras.
 ### Model for RNN
 
 
-| Layer (type)                  | Output Shape             | Param #     |
-|-------------------------------|--------------------------|-------------|
-| embedding (Embedding)               | multiple     | 16896         |
-|  gru (GRU)  | multiple              | multiple     | 3938304       |
-|  dense (Dense)                      | multiple     | 67650         |
+| Layer (type)                  | Output Shape             | Param      |
+|-------------------------------|--------------------------|------------|
+| embedding (Embedding)               | multiple     | 16896            |
+|  gru (GRU)  | multiple              | multiple     | 3938304          |
+|  dense (Dense)                      | multiple     | 67650            |
 
 
  The architecture consists of three layers: an Embedding layer, a GRU (Gated Recurrent Unit) layer, and a Dense (fully connected) layer.
