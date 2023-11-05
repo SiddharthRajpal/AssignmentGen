@@ -20,3 +20,5 @@ AssignmentGenius is an innovative application that revolutionizes education by o
   - Natural Language Processing: Integration with OpenAI's ChatGPT API enables natural language processing capabilities, enhancing communication between AssignmentGenius and users.
   - Dynamic Interactions: ChatGPT API comprehends context, allowing nuanced conversations and precise assignment generation based on user inputs.
 
+## Usage
+- our site is hosted at this link :- [https://assignmentgen.streamlit.app/]
