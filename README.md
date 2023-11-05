@@ -1,5 +1,5 @@
 # AssignmentGenius
-
+Watch our trailer here [https://drive.google.com/file/d/1tOC2NGPCc_9L2Eq1ILk0jaKBVP4Z5pZW/view?usp=sharing]
 AssignmentGenius is an innovative application that revolutionizes education by offering personalized learning experiences and effortless assignment creation. By seamlessly integrating Python programming and the ChatGPT API, AssignmentGenius empowers educators to generate tailored assignments based on individual student levels and interests.
 
 ## Features
