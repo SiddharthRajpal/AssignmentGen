@@ -1,48 +1,42 @@
-# AssignmentGen
-An innovative app powered by RNN and Keras, tailoring personalized assignments for diverse educational levels and grades, fostering interactive and adaptive learning experiences.
+# AssignmentGenius
 
-## Trailer
-Watch our Trailer here :- [Trailer Link]
+AssignmentGenius is an innovative application that revolutionizes education by offering personalized learning experiences and effortless assignment creation. By seamlessly integrating Python programming and the ChatGPT API, AssignmentGenius empowers educators to generate tailored assignments based on individual student levels and interests.
 
+## Features
 
-## Our Model
-Below is the summary of our RNN model which we have made using python and keras.
+- **Personalized Assignments:** Craft assignments tailored to individual student levels, ensuring appropriate challenge and engagement for every learner.
+- **Comprehensive Topic Selection:** Access a diverse range of topics spanning various subjects, enabling students to explore their interests while meeting curriculum objectives.
+- **Effortless Generation:** Generate assignments effortlessly with just a few clicks, saving valuable time for educators and students alike.
+- **Adaptive Learning:** Foster continuous learning with assignments that adapt to student progress, providing a personalized educational journey.
 
-### Model for RNN
+## Technical Integration
 
+- **Python Integration:**
+  - Backend Framework: Python's versatility and robustness provide a strong foundation for AssignmentGenius.
+  - Algorithmic Intelligence: Python's extensive libraries enable the implementation of complex algorithms for assignment customization.
+  - Scalability: Python's scalability ensures AssignmentGenius can handle varying workloads efficiently, adapting to the demands of educational institutions.
 
-| Layer (type)                  | Output Shape             | Param      |
-|-------------------------------|--------------------------|------------|
-| embedding (Embedding)               | multiple     | 16896            |
-|  gru (GRU)                          | multiple     | 3938304          |
-|  dense (Dense)                      | multiple     | 67650            |
+- **ChatGPT API Integration:**
+  - Natural Language Processing: Integration with OpenAI's ChatGPT API enables natural language processing capabilities, enhancing communication between AssignmentGenius and users.
+  - Dynamic Interactions: ChatGPT API comprehends context, allowing nuanced conversations and precise assignment generation based on user inputs.
 
+## Getting Started
 
- The architecture consists of three layers: an Embedding layer, a GRU (Gated Recurrent Unit) layer, and a Dense (fully connected) layer.
+To get started with AssignmentGenius, follow these steps:
 
-## Embedding Layer:
+1. Clone the repository: `git clone https://github.com/your-username/assignment-genius.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure API keys: Obtain ChatGPT API keys from OpenAI and add them to your environment variables.
+4. Run the application: `python app.py`
 
-Type: Embedding
-Output Shape: Multiple
-Parameters: 16896
-Explanation: The Embedding layer is the first layer in the network. It is used for converting sequences of integers (representing words or tokens) into dense vectors of fixed size. The output shape is not specified here but depends on the input data.
-GRU Layer:
+## Contributing
 
-## Type: GRU
-Output Shape: Multiple
-Parameters: 3938304
-Explanation: The GRU layer is a type of recurrent neural network (RNN) layer. GRU is capable of capturing long-range dependencies in sequential data. It processes input sequences and maintains an internal state, allowing it to capture patterns and relationships across the input data. The output shape is not specified here but depends on the input data.
-Dense Layer:
+We welcome contributions from the community! If you have ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request.
 
-## Type: Dense
-Output Shape: Multiple
-Parameters: 67650
-Explanation: The Dense layer is a standard fully connected neural network layer. It performs a linear operation on the input data and applies an activation function to produce the output. In this context, it is likely used to map the GRU layer's output to the desired output format, which could represent different levels and grades for generated assignments.
-This architecture is suitable for tasks where sequential input data, such as text or time series data, needs to be processed, and the model needs to capture complex patterns and relationships within the data. The specific shapes and parameters depend on the input data dimensions and the problem being solved. Developers can use this architecture as a starting point and customize it based on their specific requirements and datasets.
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 
+---
 
-
-
-## Usage
-Our Site is hosted at this link :- [ Site Link ]
+**Experience the future of education with AssignmentGenius!** For inquiries and support, contact us at [support@assignmentgenius.com](mailto:support@assignmentgenius.com).
