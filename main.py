@@ -1,8 +1,7 @@
 from fpdf import FPDF
 import streamlit as st
 import openai
-import config
-openai.api_key = config.api_key
+openai.api_key = st.secrets("DB_API")
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
