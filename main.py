@@ -2,7 +2,7 @@ from fpdf import FPDF
 import streamlit as st
 import openai
 
-openai.api_key = "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"
+openai.api_key = st.secrets["DB_API"]
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
