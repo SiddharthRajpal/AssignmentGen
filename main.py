@@ -48,7 +48,7 @@ if(button==True):
 
         pdf.set_top_margin(40)
         pdf.add_page()
-        pdf.add_font("opensans",style='',fname="fonts/OpenSans.ttf",uni=True)
+        pdf.add_font("opensans",style='',fname="font/OpenSans.ttf",uni=True)
         pdf.set_font('opensans','',14)
         w = 50
         if logo != None:
