@@ -1,7 +1,8 @@
 from fpdf import FPDF
 import streamlit as st
 import openai
-openai.api_key = st.secrets["DB_API"]
+
+openai.api_key = "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"
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
@@ -47,9 +48,8 @@ if(button==True):
 
         pdf.set_top_margin(40)
         pdf.add_page()
-
-        # pdf.add_font("roboto",style='',fname="fonts/WorkSans-VariableFont_wght.ttf",uni=True)
-        pdf.set_font('helvetica','',14)
+        pdf.add_font("opensans",style='',fname="fonts/OpenSans.ttf",uni=True)
+        pdf.set_font('opensans','',14)
         w = 50
         if logo != None:
             pdf.image(logo,x=105-(w/2),y=10,w=w)
